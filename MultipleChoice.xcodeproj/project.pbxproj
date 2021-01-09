@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		44CE20CE25A9D28300ACFE36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CE20CC25A9D28300ACFE36 /* Main.storyboard */; };
 		44CE20D025A9D28700ACFE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CE20CF25A9D28700ACFE36 /* Assets.xcassets */; };
 		44CE20D325A9D28700ACFE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CE20D125A9D28700ACFE36 /* LaunchScreen.storyboard */; };
+		44CE20DD25A9E4A000ACFE36 /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 44CE20DC25A9E4A000ACFE36 /* CodableCSV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CE20DD25A9E4A000ACFE36 /* CodableCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = MultipleChoice;
+			packageProductDependencies = (
+				44CE20DC25A9E4A000ACFE36 /* CodableCSV */,
+			);
 			productName = MultipleChoice;
 			productReference = 44CE20C325A9D28300ACFE36 /* MultipleChoice.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +115,9 @@
 				Base,
 			);
 			mainGroup = 44CE20BA25A9D28300ACFE36;
+			packageReferences = (
+				44CE20DB25A9E4A000ACFE36 /* XCRemoteSwiftPackageReference "CodableCSV" */,
+			);
 			productRefGroup = 44CE20C425A9D28300ACFE36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44CE20DB25A9E4A000ACFE36 /* XCRemoteSwiftPackageReference "CodableCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dehesa/CodableCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44CE20DC25A9E4A000ACFE36 /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44CE20DB25A9E4A000ACFE36 /* XCRemoteSwiftPackageReference "CodableCSV" */;
+			productName = CodableCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 44CE20BB25A9D28300ACFE36 /* Project object */;
 }
