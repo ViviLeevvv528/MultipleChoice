@@ -14,6 +14,7 @@
 		44CE20D025A9D28700ACFE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CE20CF25A9D28700ACFE36 /* Assets.xcassets */; };
 		44CE20D325A9D28700ACFE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CE20D125A9D28700ACFE36 /* LaunchScreen.storyboard */; };
 		44CE20DD25A9E4A000ACFE36 /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 44CE20DC25A9E4A000ACFE36 /* CodableCSV */; };
+		44CE20E025A9FC1200ACFE36 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE20DF25A9FC1200ACFE36 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		44CE20CF25A9D28700ACFE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44CE20D225A9D28700ACFE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44CE20D425A9D28700ACFE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CE20DF25A9FC1200ACFE36 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				44CE20C625A9D28300ACFE36 /* AppDelegate.swift */,
 				44CE20C825A9D28300ACFE36 /* SceneDelegate.swift */,
 				44CE20CA25A9D28300ACFE36 /* ViewController.swift */,
+				44CE20DF25A9FC1200ACFE36 /* Question.swift */,
 				44CE20CC25A9D28300ACFE36 /* Main.storyboard */,
 				44CE20CF25A9D28700ACFE36 /* Assets.xcassets */,
 				44CE20D125A9D28700ACFE36 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CE20CB25A9D28300ACFE36 /* ViewController.swift in Sources */,
+				44CE20E025A9FC1200ACFE36 /* Question.swift in Sources */,
 				44CE20C725A9D28300ACFE36 /* AppDelegate.swift in Sources */,
 				44CE20C925A9D28300ACFE36 /* SceneDelegate.swift in Sources */,
 			);
