@@ -64,8 +64,14 @@ class ViewController: UIViewController {
     if index < psytests.count - 1{
         index = index + 1
         questionLabel.text = psytests[index].question
+        print(psytests[index].answer[index])
+        for answer in psytests[index].answer{
+            print(answer)
+            answerTables.setTitle(answer, for: UIControl.State.normal)
+        }
+        
             
-    }
+//    }
     }
     
     func cleanContent(){
