@@ -57,30 +57,31 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("--start--")
-        print(psytests)
  
     }
-//    測驗的連續動作
+//    測驗的顯示動作
     func startTest(){
     if index < psytests.count - 1{
         index = index + 1
         questionLabel.text = psytests[index].question
-        for (i,answer) in psytests[index].answer.enumerated()
-        {
-            answerTables[i].setTitle(answer, for: UIControl.State.normal)
-    }
+            
     }
     }
     
+    func cleanContent(){
+        questionLabel.text = ""
+
+    }
     
     @IBAction func startBtn(_ sender: Any) {
+        cleanContent()
         startTest()
         
     }
 
     
     @IBAction func answerBtns(_ sender: UIButton) {
+//        if sender.currentTitle == psytests[index].answer
     }
         
     
